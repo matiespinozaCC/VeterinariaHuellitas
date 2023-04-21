@@ -82,8 +82,8 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #1c928b;
-    color: #ffffff;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px;
   }
