@@ -2,26 +2,34 @@
 <html>
 <head>
 	<title>Inicio de sesión</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="stylesesion.css">
 </head>
 <body>
-	<div class="login-box">
+	</form>
+	<p id="message"></p>
+
+	<script src="logout.js"></script>
+
+    <div class="login-box">
 		<h2>Inicio de sesión</h2>
-		<form>
+        <form method="post" action="inicio.html">
 			<div class="user-box">
-				<input type="text" name="" required="">
-				<label>Usuario</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="username">Nombre de usuario:</label>
 			</div>
 			<div class="user-box">
-				<input type="password" name="" required="">
-				<label>Contraseña</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="password">Contraseña:</label>
+
 			</div>
+            
 			<a href="#">
 				<span></span>
 				<span></span>
 				<span></span>
 				<span></span>
-				Iniciar sesión
+                <input type="submit" value="Iniciar sesión">
+
 			</a>
 		</form>
 	</div>
