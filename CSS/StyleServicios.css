@@ -68,17 +68,3 @@ header.sticky .navigation li a {
 header .navigation li a:hover {
     color: #14d8ea;
 }
-
-
-.header {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-}
-.container{
-    background-position: center;
-}
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
-}
