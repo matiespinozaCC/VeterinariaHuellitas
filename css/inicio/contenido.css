@@ -1,0 +1,25 @@
+.color1 {color: #122a42;}
+.color2 {color: #155a90;}
+.color3 {color: #20a5d9;}
+.color4 {color: #20dad6;}
+.color5 {color: #ebefe8;}
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ebefe8;
+  }
+
+.contenido h1{
+    color: #155a90;
+    text-align: center;
+    font-size: 48px;
+}
+
+.imagen{
+    text-align: center;
+}
+
+.imagen img{
+    width: 48px;
+}
