@@ -13,20 +13,16 @@
 </head>
 <body>
     <!--antes del tratamiento-->
-    <div class="galeria">
-        <!--navigation-->
-        <header class="sticky">
-            <a href="#" class="logo">Huellitas<span>.</span></a>
-            <div class="menuToggle" onclick="toggleMenu();"></div>
-            <ul class="navigation">
-                <li><a href="#banner" onclick="toggleMenu();">Inicio</a></li>
-                <li><a href="#acerca" onclick="toggleMenu();">Acerca de Dra.</a></li>
-                <li><a href="#informate" onclick="toggleMenu();">Informate</a></li>
-                <li><a href="#atencion" onclick="toggleMenu();">Atencion</a></li>
-                <li><a href="#contacto" onclick="toggleMenu();">Contacto</a></li>
-                
-            </ul>
-        </header>
+    <div class="topnav" id="myTopnav">
+        <a href="#Inicio" class="active">Inicio</a>
+        <a href="#Productos">Productos</a>
+        <a href="#Contacto">Contacto</a>
+        <a href="#SobreNosotros">Sobre Nosotros</a>
+        <a href="login.html">Login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div class="container">
         <div class="row">
             <form class="form-horizontal" method="post">
